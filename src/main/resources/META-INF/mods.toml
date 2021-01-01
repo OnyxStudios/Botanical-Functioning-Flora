@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[35,)"
+license="All rights reserved"
+[[mods]]
+modId="bff"
+version="${file.jarVersion}"
+displayName="Botanical Functioning Flora"
+authors="abused_master, Traverse_Joe"
+description='''
+A simple botania mod that adds a few more useful flowers
+'''
+
+[[dependencies.bff]]
+    modId="forge"
+    mandatory=true
+    versionRange="[35,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.bff]]
+    modId="botania"
+    mandatory=true
+    versionRange="[1.16.4-410,)"
+    ordering="NONE"
+    side="BOTH"
