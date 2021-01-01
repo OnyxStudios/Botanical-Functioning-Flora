@@ -4,10 +4,7 @@ import dev.onyxstudios.bff.BFF;
 import dev.onyxstudios.bff.blocks.BlockFunctionalFlower;
 import dev.onyxstudios.bff.blocks.TankFloatingFlower;
 import dev.onyxstudios.bff.blocks.TankFunctionalFlower;
-import dev.onyxstudios.bff.tileentity.TileEntityGreedaffodil;
-import dev.onyxstudios.bff.tileentity.TileEntityPulverose;
-import dev.onyxstudios.bff.tileentity.TileEntityThirstillium;
-import dev.onyxstudios.bff.tileentity.TileEntityTreegonia;
+import dev.onyxstudios.bff.tileentity.*;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -53,4 +50,10 @@ public class ModBlocks {
 
     public static RegistryObject<BlockFloatingSpecialFlower> thirstilliumFloating = blockRegistry.register("floating_thirstillium", () -> new TankFloatingFlower(vazkii.botania.common.block.ModBlocks.FLOATING_PROPS, TileEntityThirstillium::new));
     public static RegistryObject<BlockItem> thirstilliumFloatingItem = itemRegistry.register("floating_thirstillium", () -> new ItemBlockSpecialFlower(thirstilliumFloating.get(), FLOWER_ITEM_PROPS));
+
+    public static RegistryObject<BlockFunctionalFlower> lingfeiThiefily = blockRegistry.register("lingfei_thiefily", () -> new BlockFunctionalFlower(ModPotions.clear, 0, FLOWER_PROPS, TileEntityLingfeiThiefily::new));
+    public static RegistryObject<BlockItem> lingfeiThiefilyItem = itemRegistry.register("lingfei_thiefily", () -> new ItemBlockSpecialFlower(lingfeiThiefily.get(), FLOWER_ITEM_PROPS));
+
+    public static RegistryObject<BlockFloatingSpecialFlower> lingfeiThiefilyFloating = blockRegistry.register("floating_lingfei_thiefily", () -> new BlockFloatingSpecialFlower(vazkii.botania.common.block.ModBlocks.FLOATING_PROPS, TileEntityLingfeiThiefily::new));
+    public static RegistryObject<BlockItem> lingfeiThiefilyFloatingItem = itemRegistry.register("floating_lingfei_thiefily", () -> new ItemBlockSpecialFlower(lingfeiThiefilyFloating.get(), FLOWER_ITEM_PROPS));
 }
