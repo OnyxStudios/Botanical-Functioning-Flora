@@ -1,0 +1,11 @@
+{
+  "type": "bff:pulverose",
+  "cost": 1000,
+  "ingredient": {
+    "tag": "forge:ores/diamond"
+  },
+  "result": {
+    "item": "minecraft:diamond",
+    "count": 2
+  }
+}

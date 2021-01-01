@@ -1,5 +1,9 @@
 {
   "itemGroup.bff": "Botanical Functioning Flora",
-  "block.bff.treegonia": "TreeGonia",
-  "block.bff.floating_treegonia": "Floating Treegonia"
+  "block.bff.treegonia": "Treegonia",
+  "block.bff.floating_treegonia": "Floating Treegonia",
+  "block.bff.pulverose": "Pulverose",
+  "block.bff.floating_pulverose": "Floating Pulverose",
+  "item.bff.iron_dust": "Iron Dust",
+  "item.bff.gold_dust": "Gold Dust"
 }

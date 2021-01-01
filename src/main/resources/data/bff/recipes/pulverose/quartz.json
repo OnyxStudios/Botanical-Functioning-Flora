@@ -1,0 +1,11 @@
+{
+  "type": "bff:pulverose",
+  "cost": 150,
+  "ingredient": {
+    "tag": "forge:ores/quartz"
+  },
+  "result": {
+    "item": "minecraft:quartz",
+    "count": 4
+  }
+}

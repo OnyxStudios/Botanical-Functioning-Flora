@@ -1,0 +1,11 @@
+{
+  "type": "bff:pulverose",
+  "cost": 100,
+  "ingredient": {
+    "tag": "forge:ores/iron"
+  },
+  "result": {
+    "item": "bff:iron_dust",
+    "count": 2
+  }
+}

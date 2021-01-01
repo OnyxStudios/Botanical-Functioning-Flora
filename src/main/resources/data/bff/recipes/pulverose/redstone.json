@@ -1,0 +1,11 @@
+{
+  "type": "bff:pulverose",
+  "cost": 120,
+  "ingredient": {
+    "tag": "forge:ores/redstone"
+  },
+  "result": {
+    "item": "minecraft:redstone",
+    "count": 4
+  }
+}

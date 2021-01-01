@@ -1,0 +1,11 @@
+{
+  "type": "bff:pulverose",
+  "cost": 200,
+  "ingredient": {
+    "tag": "forge:ores/gold"
+  },
+  "result": {
+    "item": "bff:gold_dust",
+    "count": 2
+  }
+}

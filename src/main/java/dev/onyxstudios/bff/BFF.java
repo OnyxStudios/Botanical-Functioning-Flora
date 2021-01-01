@@ -1,8 +1,6 @@
 package dev.onyxstudios.bff;
 
-import dev.onyxstudios.bff.registry.ModBlocks;
-import dev.onyxstudios.bff.registry.ModEntitites;
-import dev.onyxstudios.bff.registry.ModRenders;
+import dev.onyxstudios.bff.registry.*;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.Mod;
@@ -27,13 +25,15 @@ public class BFF {
 
         ModBlocks.blockRegistry.register(FMLJavaModLoadingContext.get().getModEventBus());
         ModBlocks.itemRegistry.register(FMLJavaModLoadingContext.get().getModEventBus());
+        ModItems.itemRegistry.register(FMLJavaModLoadingContext.get().getModEventBus());
         ModEntitites.tilesRegistry.register(FMLJavaModLoadingContext.get().getModEventBus());
+        ModRecipes.recipesRegistry.register(FMLJavaModLoadingContext.get().getModEventBus());
     }
 
     private void setup(FMLCommonSetupEvent event) {
     }
 
     private void setupClient(FMLClientSetupEvent event) {
-        ModRenders.registerRenders();
+        ModRenders.registerRenders(event);
     }
 }
