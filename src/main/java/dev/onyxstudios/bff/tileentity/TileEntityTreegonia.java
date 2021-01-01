@@ -6,14 +6,14 @@ import net.minecraft.util.math.BlockPos;
 import vazkii.botania.api.subtile.RadiusDescriptor;
 import vazkii.botania.api.subtile.TileEntityFunctionalFlower;
 
-public class TileEntityTreeGonia extends TileEntityFunctionalFlower {
+public class TileEntityTreegonia extends TileEntityFunctionalFlower {
 
     public static final int RANGE = 8;
-    public static final int MANA_USAGE = 25;
+    public static final int MANA_USAGE = 100;
     public int maxWorkTime = 20;
     public int workTime = 0;
 
-    public TileEntityTreeGonia() {
+    public TileEntityTreegonia() {
         super(ModEntitites.treeGoniaType.get());
     }
 
@@ -51,7 +51,7 @@ public class TileEntityTreeGonia extends TileEntityFunctionalFlower {
 
     @Override
     public int getMaxMana() {
-        return 100;
+        return 500;
     }
 
     @Override

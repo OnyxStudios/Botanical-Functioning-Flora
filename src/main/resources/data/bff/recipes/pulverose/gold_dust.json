@@ -1,6 +1,6 @@
 {
   "type": "bff:pulverose",
-  "cost": 200,
+  "cost": 5000,
   "ingredient": {
     "tag": "forge:ores/gold"
   },

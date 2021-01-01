@@ -1,6 +1,6 @@
 {
   "type": "bff:pulverose",
-  "cost": 120,
+  "cost": 2000,
   "ingredient": {
     "tag": "forge:ores/redstone"
   },

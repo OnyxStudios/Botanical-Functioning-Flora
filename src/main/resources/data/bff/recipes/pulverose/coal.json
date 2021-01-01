@@ -1,6 +1,6 @@
 {
   "type": "bff:pulverose",
-  "cost": 80,
+  "cost": 1000,
   "ingredient": {
     "tag": "forge:ores/coal"
   },

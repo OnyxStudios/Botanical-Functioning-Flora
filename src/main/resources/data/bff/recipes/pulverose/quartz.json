@@ -1,6 +1,6 @@
 {
   "type": "bff:pulverose",
-  "cost": 150,
+  "cost": 2500,
   "ingredient": {
     "tag": "forge:ores/quartz"
   },

@@ -67,6 +67,6 @@ public class TileEntityPulverose extends TileEntityFunctionalFlower {
 
     @Override
     public int getMaxMana() {
-        return 10000;
+        return 20000;
     }
 }

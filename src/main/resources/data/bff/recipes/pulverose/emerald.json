@@ -1,6 +1,6 @@
 {
   "type": "bff:pulverose",
-  "cost": 500,
+  "cost": 10000,
   "ingredient": {
     "tag": "forge:ores/emerald"
   },
