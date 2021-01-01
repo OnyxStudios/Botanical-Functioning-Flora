@@ -12,6 +12,12 @@ import vazkii.botania.api.subtile.TileEntityFunctionalFlower;
 
 import java.util.Optional;
 
+/**
+ * Pulverose Flower
+ * Flower acts similar a PureDaisy
+ * Any Ore placed in it's 3x3 radius will be pulverized down to a dust, or doubled depending on the recipe
+ * Dust can be smelted back to ingots
+ */
 public class TileEntityPulverose extends TileEntityFunctionalFlower {
 
     public static final BlockPos[] POSITIONS = new BlockPos[] {new BlockPos(-1, 0, -1), new BlockPos(-1, 0, 0), new BlockPos(-1, 0, 1), new BlockPos(0, 0, 1), new BlockPos(1, 0, 1), new BlockPos(1, 0, 0), new BlockPos(1, 0, -1), new BlockPos(0, 0, -1)};

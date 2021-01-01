@@ -2,8 +2,11 @@ package dev.onyxstudios.bff.registry;
 
 import dev.onyxstudios.bff.BFF;
 import dev.onyxstudios.bff.blocks.BlockFunctionalFlower;
+import dev.onyxstudios.bff.blocks.TankFloatingFlower;
+import dev.onyxstudios.bff.blocks.TankFunctionalFlower;
 import dev.onyxstudios.bff.tileentity.TileEntityGreedaffodil;
 import dev.onyxstudios.bff.tileentity.TileEntityPulverose;
+import dev.onyxstudios.bff.tileentity.TileEntityThirstillium;
 import dev.onyxstudios.bff.tileentity.TileEntityTreegonia;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
@@ -44,4 +47,10 @@ public class ModBlocks {
 
     public static RegistryObject<BlockFloatingSpecialFlower> greedaffodilFloating = blockRegistry.register("floating_greedaffodil", () -> new BlockFloatingSpecialFlower(vazkii.botania.common.block.ModBlocks.FLOATING_PROPS, TileEntityGreedaffodil::new));
     public static RegistryObject<BlockItem> greedaffodilFloatingItem = itemRegistry.register("floating_greedaffodil", () -> new ItemBlockSpecialFlower(greedaffodilFloating.get(), FLOWER_ITEM_PROPS));
+
+    public static RegistryObject<BlockFunctionalFlower> thirstillium = blockRegistry.register("thirstillium", () -> new TankFunctionalFlower(ModPotions.clear, 0, FLOWER_PROPS, TileEntityThirstillium::new));
+    public static RegistryObject<BlockItem> thirstilliumItem = itemRegistry.register("thirstillium", () -> new ItemBlockSpecialFlower(thirstillium.get(), FLOWER_ITEM_PROPS));
+
+    public static RegistryObject<BlockFloatingSpecialFlower> thirstilliumFloating = blockRegistry.register("floating_thirstillium", () -> new TankFloatingFlower(vazkii.botania.common.block.ModBlocks.FLOATING_PROPS, TileEntityThirstillium::new));
+    public static RegistryObject<BlockItem> thirstilliumFloatingItem = itemRegistry.register("floating_thirstillium", () -> new ItemBlockSpecialFlower(thirstilliumFloating.get(), FLOWER_ITEM_PROPS));
 }

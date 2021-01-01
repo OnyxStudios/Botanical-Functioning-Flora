@@ -16,6 +16,14 @@ import vazkii.botania.api.subtile.TileEntityFunctionalFlower;
 import java.util.List;
 import java.util.Random;
 
+/**
+ * Greedaffodil Flower
+ * Flower will generate Ancient Debris
+ * Supply with any gold (Except nuggets) to feed the flower
+ * Once gold amount reaches a threshhold (Currently Set to 20), flower will consume mana and generate Ancient Debris
+ * (20% Chance to generate ancient debris)
+ * Gold will be consumed whether debris is generated or not
+ */
 public class TileEntityGreedaffodil extends TileEntityFunctionalFlower {
 
     public static final int CONSUME_RADIUS = 3;

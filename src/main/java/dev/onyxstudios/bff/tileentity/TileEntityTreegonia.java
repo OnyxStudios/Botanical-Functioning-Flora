@@ -6,6 +6,11 @@ import net.minecraft.util.math.BlockPos;
 import vazkii.botania.api.subtile.RadiusDescriptor;
 import vazkii.botania.api.subtile.TileEntityFunctionalFlower;
 
+/**
+ * Treegonia Flower
+ * Chop down any trees in it's 8x8 radius and drop logs
+ * Will not harvest leaves
+ */
 public class TileEntityTreegonia extends TileEntityFunctionalFlower {
 
     public static final int RANGE = 8;
