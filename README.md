@@ -1,2 +1,2 @@
 # Botanical Functioning Flora
- A botania addon with more functioning flora
+ A Botania addon with more functioning flora
