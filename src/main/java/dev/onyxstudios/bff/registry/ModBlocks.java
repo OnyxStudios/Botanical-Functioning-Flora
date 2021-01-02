@@ -56,4 +56,10 @@ public class ModBlocks {
 
     public static RegistryObject<BlockFloatingSpecialFlower> lingfeiThiefilyFloating = blockRegistry.register("floating_lingfei_thiefily", () -> new BlockFloatingSpecialFlower(vazkii.botania.common.block.ModBlocks.FLOATING_PROPS, TileEntityLingfeiThiefily::new));
     public static RegistryObject<BlockItem> lingfeiThiefilyFloatingItem = itemRegistry.register("floating_lingfei_thiefily", () -> new ItemBlockSpecialFlower(lingfeiThiefilyFloating.get(), FLOWER_ITEM_PROPS));
+
+    public static RegistryObject<BlockFunctionalFlower> honeysuckle = blockRegistry.register("honeysuckle", () -> new BlockFunctionalFlower(ModPotions.clear, 0, FLOWER_PROPS, TileEntityHoneySuckle::new));
+    public static RegistryObject<BlockItem> honeysuckleItem = itemRegistry.register("honeysuckle", () -> new ItemBlockSpecialFlower(honeysuckle.get(), FLOWER_ITEM_PROPS));
+
+    public static RegistryObject<BlockFloatingSpecialFlower> honeysuckleFloating = blockRegistry.register("floating_honeysuckle", () -> new BlockFloatingSpecialFlower(vazkii.botania.common.block.ModBlocks.FLOATING_PROPS, TileEntityHoneySuckle::new));
+    public static RegistryObject<BlockItem> honeysuckleFloatingItem = itemRegistry.register("floating_honeysuckle", () -> new ItemBlockSpecialFlower(honeysuckleFloating.get(), FLOWER_ITEM_PROPS));
 }

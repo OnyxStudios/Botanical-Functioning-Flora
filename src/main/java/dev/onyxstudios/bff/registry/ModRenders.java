@@ -29,6 +29,9 @@ public class ModRenders {
         RenderTypeLookup.setRenderLayer(ModBlocks.lingfeiThiefily.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(ModBlocks.lingfeiThiefilyFloating.get(), RenderType.getCutout());
 
+        ClientRegistry.bindTileEntityRenderer(ModEntitites.honeysuckleType.get(), RenderTileSpecialFlower::new);
+        RenderTypeLookup.setRenderLayer(ModBlocks.honeysuckle.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.honeysuckleFloating.get(), RenderType.getCutout());
 
         event.getMinecraftSupplier().get().getItemColors().register((itemStack, tintIndex) -> 0xE2C0AA, ModItems.ironDust.get());
         event.getMinecraftSupplier().get().getItemColors().register((itemStack, tintIndex) -> 0xFCEE4B, ModItems.goldDust.get());

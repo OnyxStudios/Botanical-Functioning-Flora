@@ -18,4 +18,5 @@ public class ModEntitites {
     public static RegistryObject<TileEntityType<TileEntityGreedaffodil>> greedaffodilType = tilesRegistry.register("greedaffidil_tile", () -> TileEntityType.Builder.create(TileEntityGreedaffodil::new, ModBlocks.greedaffodil.get(), ModBlocks.greedaffodilFloating.get()).build(null));
     public static RegistryObject<TileEntityType<TileEntityThirstillium>> thirstilliumType = tilesRegistry.register("thirstillium_tile", () -> TileEntityType.Builder.create(TileEntityThirstillium::new, ModBlocks.thirstillium.get(), ModBlocks.thirstilliumFloating.get()).build(null));
     public static RegistryObject<TileEntityType<TileEntityLingfeiThiefily>> lingfeiThiefilyType = tilesRegistry.register("lingfei_thiefily_tile", () -> TileEntityType.Builder.create(TileEntityLingfeiThiefily::new, ModBlocks.lingfeiThiefily.get(), ModBlocks.lingfeiThiefilyFloating.get()).build(null));
+    public static RegistryObject<TileEntityType<TileEntityHoneySuckle>> honeysuckleType = tilesRegistry.register("honeysuckle_tile", () -> TileEntityType.Builder.create(TileEntityHoneySuckle::new, ModBlocks.honeysuckle.get(), ModBlocks.honeysuckleFloating.get()).build(null));
 }
