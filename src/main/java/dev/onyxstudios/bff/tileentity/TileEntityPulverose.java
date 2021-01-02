@@ -4,11 +4,15 @@ import dev.onyxstudios.bff.registry.ModEntitites;
 import dev.onyxstudios.bff.registry.ModRecipes;
 import dev.onyxstudios.bff.registry.recipe.PulveroseRecipe;
 import dev.onyxstudios.bff.utils.PulveroseInvWrapper;
+import net.minecraft.block.Block;
 import net.minecraft.inventory.InventoryHelper;
 import net.minecraft.item.crafting.IRecipe;
+import net.minecraft.particles.ParticleTypes;
 import net.minecraft.util.math.BlockPos;
 import vazkii.botania.api.subtile.RadiusDescriptor;
 import vazkii.botania.api.subtile.TileEntityFunctionalFlower;
+import vazkii.botania.client.fx.SparkleParticleData;
+import vazkii.botania.client.fx.WispParticleData;
 
 import java.util.Optional;
 
@@ -34,20 +38,19 @@ public class TileEntityPulverose extends TileEntityFunctionalFlower {
     public void tickFlower() {
         super.tickFlower();
 
-        if(world.isRemote())
+        if (world.isRemote())
             return;
 
         BlockPos currentPos = pos.add(POSITIONS[currentPosition]);
-        if(!world.isAirBlock(currentPos) && world.getTileEntity(currentPos) == null) {
+        if (!world.isAirBlock(currentPos) && world.getTileEntity(currentPos) == null) {
             wrapper.setInventorySlotContents(0, world.getBlockState(currentPos).getBlock().asItem().getDefaultInstance());
             Optional<IRecipe<PulveroseInvWrapper>> recipeOptional = world.getRecipeManager().getRecipe(ModRecipes.PULVEROSE, wrapper, world);
 
             recipeOptional.ifPresent(recipe -> {
-                if(getMana() >= ((PulveroseRecipe) recipe).getCost()) {
+                if (getMana() >= ((PulveroseRecipe) recipe).getCost()) {
                     workProgress[currentPosition]++;
                     if (workProgress[currentPosition] >= maxWorkProgress) {
                         world.destroyBlock(currentPos, false);
-
                         InventoryHelper.spawnItemStack(world, currentPos.getX(), currentPos.getY(), currentPos.getZ(), recipe.getRecipeOutput().copy());
                         addMana(-((PulveroseRecipe) recipe).getCost());
                         workProgress[currentPosition] = 0;
@@ -57,7 +60,7 @@ public class TileEntityPulverose extends TileEntityFunctionalFlower {
         }
 
         currentPosition++;
-        if(currentPosition > 7)
+        if (currentPosition > 7)
             currentPosition = 0;
     }
 

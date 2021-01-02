@@ -116,6 +116,7 @@ public class TileEntityHoneySuckle extends TileEntityFunctionalFlower {
                                     addMana(-MANA_USAGE);
                                     world.setBlockState(offsetPos, world.getBlockState(offsetPos).with(BeehiveBlock.HONEY_LEVEL, Integer.valueOf(0)), 3);
                                     world.notifyBlockUpdate(pos, world.getBlockState(pos), world.getBlockState(pos), 3);
+                                    break;
                                 }
                             }
                         }
