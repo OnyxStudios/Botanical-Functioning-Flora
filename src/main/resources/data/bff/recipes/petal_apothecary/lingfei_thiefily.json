@@ -1,0 +1,26 @@
+{
+  "type": "botania:petal_apothecary",
+  "output": {
+    "item": "bff:lingfei_thiefily"
+  },
+  "ingredients": [
+    {
+      "tag": "botania:runes/greed"
+    },
+    {
+      "tag": "botania:runes/wrath"
+    },
+    {
+      "tag": "botania:petals/blue"
+    },
+    {
+      "tag": "botania:petals/blue"
+    },
+    {
+      "tag": "botania:petals/magenta"
+    },
+    {
+      "tag": "botania:petals/magenta"
+    }
+  ]
+}

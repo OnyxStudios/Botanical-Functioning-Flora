@@ -1,0 +1,26 @@
+{
+  "type": "botania:petal_apothecary",
+  "output": {
+    "item": "bff:treegonia"
+  },
+  "ingredients": [
+    {
+      "tag": "botania:runes/wrath"
+    },
+    {
+      "item": "botania:redstone_root"
+    },
+    {
+      "tag": "botania:petals/light_gray"
+    },
+    {
+      "tag": "botania:petals/green"
+    },
+    {
+      "tag": "botania:petals/brown"
+    },
+    {
+      "tag": "botania:petals/brown"
+    }
+  ]
+}

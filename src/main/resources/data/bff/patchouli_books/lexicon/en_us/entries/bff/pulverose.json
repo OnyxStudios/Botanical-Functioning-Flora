@@ -1,0 +1,16 @@
+{
+  "name": "Pulverose",
+  "category": "bff:bff",
+  "icon": "bff:pulverose",
+  "pages": [
+    {
+      "type": "text",
+      "text": "The Pulverose will double any and all of your ores. Simply surround it with ores in a 3x3 radius (similar to a Pure Daisy), and watch it magically consume mana and double your treasure."
+    },
+    {
+      "type": "botania:petal_apothecary",
+      "recipe": "bff:petal_apothecary/pulverose",
+      "text": "$(o)Thermal Expansion notice me plz uwu.$()"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Treegonia",
+  "category": "bff:bff",
+  "icon": "bff:treegonia",
+  "pages": [
+    {
+      "type": "text",
+      "text": "The Treegonia is an acquaintance to the Munchdew. However opposite of it, only logs will be harvested leaving all leaves to decay. The working radius is an 8x8 area. You can halt the flower by providing it with a redstone signal."
+    },
+    {
+      "type": "botania:petal_apothecary",
+      "recipe": "bff:petal_apothecary/treegonia",
+      "text": "$(o)We're yelling timber.$()"
+    }
+  ]
+}

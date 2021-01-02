@@ -1,0 +1,26 @@
+{
+  "type": "botania:petal_apothecary",
+  "output": {
+    "item": "bff:pulverose"
+  },
+  "ingredients": [
+    {
+      "tag": "botania:runes/greed"
+    },
+    {
+      "item": "minecraft:flint"
+    },
+    {
+      "tag": "botania:petals/gray"
+    },
+    {
+      "tag": "botania:petals/gray"
+    },
+    {
+      "tag": "botania:petals/green"
+    },
+    {
+      "tag": "botania:petals/green"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Thirstillium",
+  "category": "bff:bff",
+  "icon": "bff:thirstillium",
+  "pages": [
+    {
+      "type": "text",
+      "text": "The thirstillium is essentially a tank disguised as a flower. It can store up to 10 buckets of any fluid, at the cost of mana. If the flower happens to run out of mana, it will slowly start drinking it's fluid content, 10MB every second to be exact."
+    },
+    {
+      "type": "botania:petal_apothecary",
+      "recipe": "bff:petal_apothecary/thirstillium",
+      "text": "$(o)Hold my beer.$()"
+    }
+  ]
+}

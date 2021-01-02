@@ -1,0 +1,16 @@
+{
+  "name": "Lingfei Thiefily",
+  "category": "bff:bff",
+  "icon": "bff:lingfei_thiefily",
+  "pages": [
+    {
+      "type": "text",
+      "text": "The Lingfei Thiefily may seem harmless at first, but it is a thief. It will rob any nearby mobs of it's equipment (excluding players). Simply provide with mana, and watch it strip a mob down, one item at a time every 5 seconds."
+    },
+    {
+      "type": "botania:petal_apothecary",
+      "recipe": "bff:petal_apothecary/lingfei_thiefily",
+      "text": "$(o)Don't mind if i do >:D.$()"
+    }
+  ]
+}

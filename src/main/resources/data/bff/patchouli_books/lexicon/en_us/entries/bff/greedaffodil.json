@@ -1,0 +1,16 @@
+{
+  "name": "Greedaffodil",
+  "category": "bff:bff",
+  "icon": "bff:greedaffodil",
+  "pages": [
+    {
+      "type": "text",
+      "text": "The Greedaffodil will generate ancient debris. It's a very needy plant that needs to be fed anything that strikes a piglins interests. Once the flower reaches a threshold of it's choosing, it will randomly decide to spawn Ancient Debris, although very rarely. However be warned, if you feed it more than it needs, it will simply devour the excess treasure!"
+    },
+    {
+      "type": "botania:petal_apothecary",
+      "recipe": "bff:petal_apothecary/greedaffodil",
+      "text": "$(o)Roll the dice.$()"
+    }
+  ]
+}

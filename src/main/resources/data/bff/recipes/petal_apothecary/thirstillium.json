@@ -1,0 +1,26 @@
+{
+  "type": "botania:petal_apothecary",
+  "output": {
+    "item": "bff:thirstillium"
+  },
+  "ingredients": [
+    {
+      "tag": "botania:runes/water"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "tag": "botania:petals/white"
+    },
+    {
+      "tag": "botania:petals/white"
+    },
+    {
+      "tag": "botania:petals/light_blue"
+    },
+    {
+      "tag": "botania:petals/light_blue"
+    }
+  ]
+}

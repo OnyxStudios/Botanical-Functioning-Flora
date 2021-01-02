@@ -1,0 +1,26 @@
+{
+  "type": "botania:petal_apothecary",
+  "output": {
+    "item": "bff:honeysuckle"
+  },
+  "ingredients": [
+    {
+      "tag": "botania:runes/spring"
+    },
+    {
+      "item": "minecraft:honeycomb"
+    },
+    {
+      "tag": "botania:petals/yellow"
+    },
+    {
+      "tag": "botania:petals/yellow"
+    },
+    {
+      "tag": "botania:petals/orange"
+    },
+    {
+      "tag": "botania:petals/orange"
+    }
+  ]
+}

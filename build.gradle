@@ -77,9 +77,6 @@ repositories {
 dependencies {
     minecraft 'net.minecraftforge:forge:1.16.4-35.1.15'
 
-    compileOnly "mekanism:Mekanism:1.16.4-10.0.18.445:api"
-    runtimeOnly fg.deobf("mekanism:Mekanism:1.16.4-10.0.18.445")// core
-
     compile fg.deobf("vazkii.botania:Botania:${botania_version}")
     compile fg.deobf("top.theillusivec4.curios:curios-forge:${curios_version}")
     compile fg.deobf("vazkii.patchouli:Patchouli:${patchouli_version}")

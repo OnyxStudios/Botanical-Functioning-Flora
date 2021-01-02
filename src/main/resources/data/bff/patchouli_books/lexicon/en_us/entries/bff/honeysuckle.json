@@ -1,0 +1,16 @@
+{
+  "name": "Honeysuckle",
+  "category": "bff:bff",
+  "icon": "bff:honeysuckle",
+  "pages": [
+    {
+      "type": "text",
+      "text": "The Honeysuckle will harvest honey fron any adjacent beehives. Simple place a chest next to it, with either bottles or shears and watch it start harvesting! As long as the Beehives contain honey, the Honeysuckle will harvest and drop into the adjacent inventory!"
+    },
+    {
+      "type": "botania:petal_apothecary",
+      "recipe": "bff:petal_apothecary/honeysuckle",
+      "text": "$(o)There's a rumbly in my tumbly.$()"
+    }
+  ]
+}
